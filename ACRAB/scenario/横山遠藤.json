@@ -1,0 +1,140 @@
+{
+    "info": {
+        "day": "二日目",
+        "title": "お嬢さまとはじめてのお星さま",
+        "name": "横山遠藤"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "よく見つけましたね！それがオリオン座です",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "これはおおいぬ座の１等星、シリウスといいます",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうです！それがこいぬ座の１等星、プロキオンです",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "先ほど紹介したように、冬のダイヤモンドというものもあるんですよ",
+            "projector": {
+                "CMa": 0,
+                "Ori": 0,
+                "CMi": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうです！この星はおうし座の中の星ですよ",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "よく見つけましたね！それが次の星のある星座で、ぎょしゃ座と言います。",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そう、ふたご座です！",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "さあ、やっとダイヤモンドを一周しましたね",
+            "projector": {
+                "Tau": 0,
+                "Aur": 0,
+                "Gem": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "まずはこいぬ座のプロキオン、",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おおいぬ座のシリウス、",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "オリオン座のリゲル、",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おうし座のアルデバラン、",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ぎょしゃ座のカペラ、",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "最後にふたご座のポルックス…",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "教えてくれてありがとう！ほかにもたくさん教えてほしいわ",
+            "projector": {
+                "Wnd": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "北斗七星は、おおぐま座という星座の一部なんです",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "母親をおおぐま座に、息子をこぐま座にしたそうです",
+            "projector": {
+                "UMa": 0
+            }
+        }
+    ]
+}

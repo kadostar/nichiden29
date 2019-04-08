@@ -1,0 +1,169 @@
+{
+    "info": {
+        "day": "三日目",
+        "title": "星空を楽しむ、はじめの一歩〜春夏編〜",
+        "name": "田中杉本"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "北斗七星はおおぐま座という星座の…",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうなんです！こぐま座は、先ほど北斗七星から探した…",
+            "projector": {
+                "UMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうなんです！こぐま座は、先ほど北斗七星から探した…",
+            "projector": {
+                "UMa": 0,
+                "UMi": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうです。この星は、うしかい座の1等星で",
+            "projector": {
+                "Boo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "それでは、ほかの明るい星にも",
+            "projector": {
+                "Boo": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "この星は、おとめ座のスピカという星です",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そもそも誕生星座ってどうやって選ばれているんですか？",
+            "projector": {
+                "Vir": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "これが、しし座の一部になります",
+            "projector": {
+                "Leo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うしかい座のアルクトゥルス、",
+            "projector": {
+                "Boo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おとめ座のスピカ",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "春の星空を見るときは、まず北斗七星から",
+            "projector": {
+                "Vir": 0,
+                "Boo": 0,
+                "Leo": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こちら側にある織姫星のほうは、こと座の星で、ベガとも呼ばれます。",
+            "projector": {
+                "Lyr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "一方の彦星はわし座の星で、アルタイルとも呼ばれますね",
+            "projector": {
+                "Aql": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ところで、さっき春の大曲線と大三角を見つけましたよね？",
+            "projector": {
+                "Lyr": 0,
+                "Cyg": 0,
+                "Aql": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうなんです。南斗六星は、いて座の弓の部分にあたるんです。",
+            "projector": {
+                "Sgr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "さらに南のほうにあるS字のカーブが見つかるでしょうか",
+            "projector": {
+                "Sgr": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "さそり座、ですよね！",
+            "projector": {
+                "Sco": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そういえば、いて座とさそり座も…",
+            "projector": {
+                "Sco": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "それではこと座の神話をご紹介しますね。",
+            "projector": {
+                "Lyr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "壮大な恋のお話ですね。",
+            "projector": {
+                "Lyr": 0
+            }
+        }
+    ]
+}

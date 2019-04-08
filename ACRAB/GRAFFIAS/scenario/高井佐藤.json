@@ -1,0 +1,183 @@
+{
+    "info": {
+        "day": "二日目",
+        "title": "トレミー星座を巡って",
+        "name": "高井佐藤"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "それで、これが含まれている星座が、たしか・・・",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うしかい座のアークトゥルス",
+            "projector": {
+                "Boo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おとめ座のスピカ",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "これがからす座だよ",
+            "projector": {
+                "Crv": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ほんとだねー",
+            "projector": {
+                "Boo": 0,
+                "Crv": 0,
+                "Vir": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "この星はこぐま座の星で、",
+            "projector": {
+                "UMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こぐま座はさっきのおおぐま座のこどもにあたる星座だね",
+            "projector": {
+                "UMa": 0,
+                "UMi": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こと座の１等星だっけ",
+            "projector": {
+                "Lyr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "わし座のアルタイル！",
+            "projector": {
+                "Aql": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "残念！しっぽでした！",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うん、実際、いるか座は最も人気がある星座の１つだね。これもちゃんとトレミー48星座の1つで昔からある星座なんだよ",
+            "projector": {
+                "Smt": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "まず、この長方形はペガススの大四辺形だね",
+            "projector": {
+                "Peg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "これを使っていろんな星を見つけることができるよ",
+            "projector": {
+                "Peg": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "大四辺形のこの星はお隣のアンドロメダ座に属しているんだよ",
+            "projector": {
+                "And": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "すごいね、ばっちり",
+            "projector": {
+                "And": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうだね、これ",
+            "projector": {
+                "Ari": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうだよ！あ、これだな",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "やっぱり日本人にはとても馴染みがあるよね。車のメーカーにもあるし",
+            "projector": {
+                "Ari": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "オリオン座！",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "オリオンはギリシャ神話の猟師だね！",
+            "projector": {
+                "Tau": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そのオリオンが連れている猟犬2匹がおおいぬ座",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こいぬ座",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "プラネタリウムで見ることができたし、今日はいいことあるかもな！",
+            "projector": {
+                "Ori": 0,
+                "CMa": 0,
+                "CMi": 0
+            }
+        }
+    ]
+}

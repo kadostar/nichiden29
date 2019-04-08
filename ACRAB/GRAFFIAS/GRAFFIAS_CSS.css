@@ -1,0 +1,123 @@
+﻿body{
+    background-image: url(IMG_0184-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+a:link { 
+    color: aliceblue; 
+}
+a:visited{
+    color: aliceblue;
+}
+a:hover{
+    color: #673AB7;
+}
+h1 {
+    color: #FF9800;
+    left: 40px;
+    font-family: "impact",sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid #E64A19;
+}
+h1:first-letter {
+    margin-right: 0.05em;
+    font-size: 1.5em;
+    color: #E64A19;
+}
+form#frm {
+    width: 80%;
+    background: rgba(255,87,34,0.3);
+    overflow-y: scroll;
+    margin: 50px auto;
+    padding: 50px;
+    font-family:  Arial,“ヒラギノ角ゴ ProN W3″,“Hiragino Kaku Gothic ProN”,“メイリオ”,Meiryo,sans-serif;
+    position: relative;
+}
+form#frm_listmake{
+    height: 30px;
+}
+form p {
+    color: #FFFFFF;
+}
+#scenario {
+    border-bottom: solid 3px #E64A19;
+    width: 70px;
+    
+}
+#close {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background: #673AB7;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align:middle;
+    overflow: hidden;
+    transition: .4s;
+}
+#close:hover{
+    background-color: #D1C4E9;
+}
+#add {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background-color:#FF5722;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+}
+#add:hover{
+    background-color:#FFCCBC;
+}
+#send_button {
+    float: right;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #FF5722;/*ボタン色*/
+    color: #FFFFFF;
+    border-bottom: solid 4px #757575;
+    border-radius: 3px;
+}
+#send_button:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+#form_confirm{
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+#resulttext{
+    resize: vertical;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
+#listmake{
+    display: none;
+    background-color: crimson;
+    color: whitesmoke;
+    float: right;
+}
+footer {
+    color: #BDBDBD;
+    font-size: 0.2em;
+}

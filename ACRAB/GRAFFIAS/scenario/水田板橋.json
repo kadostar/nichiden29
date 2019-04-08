@@ -1,0 +1,95 @@
+{
+    "info": {
+        "day": "二日目",
+        "title": "仲良し兄妹と行くダイヤモンド探しの旅",
+        "name": "水田板橋"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "それくらい知ってるよ～",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "まあ大丈夫だから",
+            "projector": {
+                "Ori": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "…がいる星座がおおいぬ座ね",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "…こいぬ座の一部なんだ。",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "神話って何通りかお話があるもんね",
+            "projector": {
+                "CMa": 0,
+                "CMi": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うん、その上のふたご座は知ってる",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "本当に仲良しなんだね",
+            "projector": {
+                "Gem": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "…高い位置にはぎょしゃ座があるね",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "全然話聞いてないやろ",
+            "projector": {
+                "Aur": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あーもうわかったよ、じゃあ次はおうし座を見てみようか",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ほんとだ！",
+            "projector": {
+                "Tau": 0
+            }
+        }
+    ]
+}

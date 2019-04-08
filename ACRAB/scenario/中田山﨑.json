@@ -1,0 +1,137 @@
+{
+    "info": {
+        "day": "三日目",
+        "title": "星空はいつまでも",
+        "name": "中田山崎"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "してもらおうかな、よっと",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "全体像は、そんな感じだよ",
+            "projector": {
+                "Ari": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こんな感じの形をしてるよ",
+            "projector": {
+                "Psc": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "少し時間を進めるね",
+            "projector": {
+                "Psc": 0,
+                "Tau": 0,
+                "Ari": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "思い出した、こんな形だよね",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "かわいそうに思って、こうして",
+            "projector": {
+                "Cnc": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ほら、このあたり(の後ポインターで示した後)",
+            "projector": {
+                "Leo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "次の星座たち行ってみようか",
+            "projector": {
+                "Cnc": 0,
+                "Leo": 0,
+                "Gem": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こんな感じで",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "出したほうが早いかな",
+            "projector": {
+                "Lib": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こう結んだやつ！(の2，3秒後)",
+            "projector": {
+                "Sco": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "倒したんだね",
+            "projector": {
+                "Vir": 0,
+                "Sco": 0,
+                "Lib": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "弓を掲げている",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "出てきてもらいましょう！",
+            "projector": {
+                "Cap": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "水瓶を持った青年",
+            "projector": {
+                "Aqr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "太陽が昇ってきたようですね",
+            "projector": {
+                "Sgr": 0,
+                "Aqr": 0,
+                "Cap": 0
+            }
+        }
+    ]
+}

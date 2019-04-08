@@ -1,0 +1,129 @@
+{
+    "info": {
+        "day": "二日目",
+        "title": "夏と冬の夜空に浮かぶ物語たち",
+        "name": "大野若槻"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こと座のベガ",
+            "projector": {
+                "Lyr": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "わし座のアルタイル",
+            "projector": {
+                "Aql": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "はくちょう座のデネブ",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "多いのではないでしょうか",
+            "projector": {
+                "Smt": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "天帝の娘である織姫は",
+            "projector": {
+                "Him": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "織姫を牛飼いの青年と",
+            "projector": {
+                "Hik": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "はくちょう座のデネブ",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "夏の大三角と天の川にまつわる",
+            "projector": {
+                "Cyg": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "とってもロマンチックな",
+            "projector": {
+                "Him": 0,
+                "Hik": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "オリオン座といいます",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "関係しているんです",
+            "projector": {
+                "Tau": 1,
+                "Lep": 1,
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "さて、自信家の",
+            "projector": {
+                "Lep": 0,
+                "CMa": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "また別の話を",
+            "projector": {
+                "Tau": 0,
+                "Lep": 1,
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "さて、そんなオリオンですが",
+            "projector": {
+                "Lep": 0,
+                "CMa": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "星座にしてもらった、ということです",
+            "projector": {
+                "Ori": 0
+            }
+        }
+    ]
+}

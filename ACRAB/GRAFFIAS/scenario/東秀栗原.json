@@ -1,0 +1,160 @@
+{
+    "info": {
+        "day": "二日目",
+        "title": "星空探検ツアー「Gemini」",
+        "name": "東秀栗原"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その通り！その北極星を探す",
+            "projector": {
+                "Cas": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アルファベットのMの形をしている星座ですね！",
+            "projector": {
+                "Cas": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ほんとだ！それぞれこと座のベガ，わし座のアルタイルでしたよね？",
+            "projector": {
+                "Him": 1,
+                "Hik": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "悲しくも素敵な伝説ですよね",
+            "projector": {
+                "Him": 0,
+                "Hik": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ここにあるオリオン座は",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "いやまあ知ってましたけどね",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アルデバランは、おうし座に含まれる星座で",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そしてこのゼウスこそが、ふたご座の",
+            "projector": {
+                "Tau": 0,
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "わ、わかってますよ",
+            "projector": {
+                "Gem": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "カペラは、『雌ヤギ』という意味の言葉が由来で",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "冬の空には今まで見てきたように",
+            "projector": {
+                "Aur": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "プロキオン",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "シリウス",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "リゲル",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アルデバラン",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "カペラ",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "え、ええそうです。ふたご座の",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "機長、そろそろ",
+            "projector": {
+                "Wnd": 0
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "では、お客様～？",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "素敵な話だなーって！こんなことしてる場合じゃない",
+            "projector": {
+                "Gem": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "info": {
+        "day": "ソフト",
+        "title": "星降る夜に架かる橋",
+        "name": ""
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そういえば、明るい星が…あった！これだ！",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ああ。この3つの星の中で一番明るい星が、こと座のベガ。織姫星<続く>",
+            "projector": {
+                "Him": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "それで、もう1つの星がわし座のアルタイル。彦星<続く>",
+            "projector": {
+                "Hik": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うん！じゃあ琴音、すぐ来てね！はくちょう、またお話ししようね！",
+            "projector": {
+                "Him": 0,
+                "Hik": 0
+            }
+        },
+        {
+            "timing": "の後に足音の効果音が聞こえたら",
+            "word": "赤い色をしているから…これがさそり座の胴体と尻尾よ",
+            "projector": {
+                "Sco": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ママにも、さそり座の…ママ、心配してるかなあ。早く会いたいな",
+            "projector": {
+                "Sco": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "わし座のアルタイル…彦星よね。見つけたわ",
+            "projector": {
+                "Hik": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "小さくてかわいらしいわね。大鷲さん、星に詳しいのね。",
+            "projector": {
+                "Hik": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その通りです。てんびん座は、さそり座<続く>",
+            "projector": {
+                "Sco": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "てんびん座は、さそり座の一等星、アンタレスと、おとめ座<続く>",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "えーっと、アンタレスと、スピカの間にあるコの字型の星座…あったわ！",
+            "projector": {
+                "Lib": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "さあ、もうすぐ天の川です。ひかるくんを探しましょう。",
+            "projector": {
+                "Sco": 0,
+                "Vir": 0,
+                "Lib": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "琴音、大鷲さん、はくちょう！ぼく、また遊びに来るからね！",
+            "projector": {
+                "Him": 1,
+                "Hik": 1,
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "エンディング開始",
+            "projector": {
+                "Him": 0,
+                "Hik": 0,
+                "Cyg": 0
+            }
+        }
+    ]
+}

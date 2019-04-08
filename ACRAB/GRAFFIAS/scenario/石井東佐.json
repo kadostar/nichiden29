@@ -1,0 +1,168 @@
+{
+    "info": {
+        "day": "三日目",
+        "title": "星空ナイトサファリ～夜空に暮らす動物たち～",
+        "name": "石井東佐"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "の目印なんです",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "どこにいるんでしょう？",
+            "projector": {
+                "UMa": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "しっぽの先端なんです。",
+            "projector": {
+                "UMa": 1,
+                "UMi": 1
+            }
+        },
+        {
+            "timing": "の途中",
+            "word": "さて、次の動物はどこにいるのでしょうか？",
+            "projector": {
+                "UMa": 0,
+                "UMi": 0
+            }
+        },
+        {
+            "timing": "の途中",
+            "word": "押さえつけたのです。",
+            "projector": {
+                "Crv": 1
+            }
+        },
+        {
+            "timing": "の途中",
+            "word": "そうですね。カラスもそうですが～",
+            "projector": {
+                "Crv": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "しし座です。",
+            "projector": {
+                "Leo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "出会えます。",
+            "projector": {
+                "Sco": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "みえずらくなってしまいます。",
+            "projector": {
+                "Sco": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "はくちょうです。",
+            "projector": {
+                "Cyg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "というお話もあります。",
+            "projector": {
+                "Cyg": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "この動物は鷲！",
+            "projector": {
+                "Aql": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "今もゼウスのそばにいるんですね。",
+            "projector": {
+                "Aql": 0
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "あそこにいるのは",
+            "projector": {
+                "Cap": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "仲間入りになりました。",
+            "projector": {
+                "Cap": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "美しい牡羊の姿が見えてきます。",
+            "projector": {
+                "Ari": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おひつじも見つけてみてください。",
+            "projector": {
+                "Ari": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そう、うさぎです。",
+            "projector": {
+                "Lep": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "人気者の一人です。",
+            "projector": {
+                "Lep": 0
+            }
+        },
+        {
+            "timing": "2秒ほど後",
+            "word": "なんの動物かわかりますか？",
+            "projector": {
+                "CMa": 1,
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "強いつながりを感じますね。",
+            "projector": {
+                "CMa": 0,
+                "CMi": 0
+            }
+        }
+    ]
+}

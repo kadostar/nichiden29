@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Acrab main</title>
+  <script src = "js/jquery-3.1.0.js"></script>
+  <script src = "js/acrab_main.js"></script>
+  <script src = "js/acrab_scenario.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="img/acrab-banner.svg" height=110>
+    <div id="wifi-icons">
+      <p style="text-decoration:underline"><b>受信状況</b></p>
+      <p>北天BOX: <span id="north">正常受信中</span>  <a id="refresh_north">更新</a></p>
+      <p>南天BOX: <span id="south">正常受信中</span>  <a id="refresh_south">更新</a></p>
+    </div>
+    <ul class="tab_area">
+      <li id="main_tab" class="active"></li>
+      <li id="scenario_tab"></li>
+    </ul>
+    <div id="header_right_wrapper">
+      <label>画面を暗くする <input id="light_range" type="range" value="100"></label>
+      <p><span style="font-size: small">※ボタンが反応しない・表示がおかしい<br>場合はページを更新してください</span></p>
+    </div>
+  </header>
+  <hr>
+  <div class="content" style="display:block"><!-- Tab 1(default) -->
+    <ul>
+      <button class="main_button constellation" id="And">And</button>
+      <button class="main_button constellation" id="Aql">Aql</button>
+      <button class="main_button constellation" id="Aqr">Aqr</button>
+      <button class="main_button constellation" id="Ari">Ari</button>
+      <button class="main_button constellation" id="Aur">Aur</button>
+      <button class="main_button constellation" id="Boo">Boo</button>
+      <button class="main_button constellation" id="Cap">Cap</button>
+      <button class="main_button constellation" id="Cas">Cas</button>
+    </ul>
+    <ul>
+      <button class="main_button constellation" id="Cep">Cep</button>
+      <button class="main_button constellation" id="Cet">Cet</button>
+      <button class="main_button constellation" id="CMa">CMa</button>
+      <button class="main_button constellation" id="CMi">CMi</button>
+      <button class="main_button constellation" id="Cnc">Cnc</button>
+      <button class="main_button constellation" id="Crv">Crv</button>
+      <button class="main_button constellation" id="Cyg">Cyg</button>
+      <button class="main_button constellation" id="Gem">Gem</button>
+    </ul>
+    <ul>
+      <button class="main_button constellation" id="Leo">Leo</button>
+      <button class="main_button constellation" id="Lep">Lep</button>
+      <button class="main_button constellation" id="Lib">Lib</button>
+      <button class="main_button constellation" id="Lyr">Lyr</button>
+      <button class="main_button constellation" id="Ori">Ori</button>
+      <button class="main_button constellation" id="Peg">Peg</button>
+      <button class="main_button constellation" id="Per">Per</button>
+      <button class="main_button constellation" id="Psc">Psc</button>
+    </ul>
+    <ul>
+      <button class="main_button constellation" id="Sco">Sco</button>
+      <button class="main_button constellation" id="Sgr">Sgr</button>
+      <button class="main_button constellation" id="Tau">Tau</button>
+      <button class="main_button constellation" id="UMa">UMa</button>
+      <button class="main_button constellation" id="UMi">UMi</button>
+      <button class="main_button constellation" id="Vir">Vir</button>
+      <button class="main_button constellation" id="Him">Him</button>
+      <button class="main_button constellation" id="Hik">Hik</button>
+    </ul>
+    <ul>
+      <button class="big main_button group" id="Spc">Spc</button>
+      <button class="big main_button group" id="Spt">Spt</button>
+      <button class="big main_button group" id="Smt">Smt</button>
+      <button class="big main_button group" id="Wnt">Wnt</button>
+      <button class="big main_button group" id="Wnd">Wnd</button>
+      <button class="big main_button group" id="Twv">Twv</button>
+      <button class="big main_button group" id="Eth">Eth</button>
+      <button class="big main_button group" id="All">All</button>
+      <!--<button class="big main_button all" id="Set">Set</button> 電源に過負荷がかかるので当面使用禁止-->
+      
+    </ul>
+    <ul>
+      <button class="main_button group" id="Sta">Sta</button>
+      <button class="debug main_button projector" id="St1">St1</button>
+      <button class="debug main_button projector" id="St2">St2</button>
+      <button class="main_button projector" id="Fst">Fst</button>
+      <button class="main_button projector" id="Gxy">Gxy</button>
+      <button class="main_button all" id="Cle">Cle</button>
+    </ul>
+  </div>
+  <div class="content" style="display:none"><!-- Tab 2 -->
+    <div class="flex_container" style="margin: 10px 0px;">
+      <div id="select-group">
+        <select id="select">
+          <option value="default">(公演を選択)</option>
+        </select>
+      </div>
+      <button id="timer_start" class="timer_button" onclick="timer_button.start()">開始</button>
+      <button id="timer_stop" class="timer_button" onclick="timer_button.stop()" style="display:none">停止</button>
+      <button id="timer_restart" class="timer_button" onclick="timer_button.restart()" style="display:none">再開</button>
+      <button id="timer_reset" class="timer_button" onclick="timer_button.reset()" disabled>リセット</button>
+      <div id="progress_bar" style="margin: 0px 5px;">
+        <progress></progress>
+      </div>
+    </div>
+    <div class="flex_container">
+      <div class="flex_container" id="now_box">
+        <p>現在 <span id="scenario_number">1/1</span></p>
+        <p id="scenario_now"></p>
+      </div>
+      <div id="scenario_constellation">
+        <p id="And">And</p><p id="Aql">Aql</p><p id="Aqr">Aqr</p>
+        <p id="Ari">Ari</p><p id="Aur">Aur</p><p id="Boo">Boo</p>
+        <p id="Cap">Cap</p><p id="Cas">Cas</p><p id="Cep">Cep</p>
+        <p id="Cet">Cet</p><p id="CMa">CMa</p><p id="CMi">CMi</p>
+        <p id="Cnc">Cnc</p><p id="Crv">Crv</p><p id="Cyg">Cyg</p>
+        <p id="Gem">Gem</p><p id="Leo">Leo</p><p id="Lep">Lep</p>
+        <p id="Lib">Lib</p><p id="Lyr">Lyr</p><p id="Ori">Ori</p>
+        <p id="Peg">Peg</p><p id="Per">Per</p><p id="Psc">Psc</p>
+        <p id="Sco">Sco</p><p id="Sgr">Sgr</p><p id="Tau">Tau</p>
+        <p id="UMa">UMa</p><p id="UMi">UMi</p><p id="Vir">Vir</p>
+        <p id="Him">Him</p><p id="Hik">Hik</p><p id="Sta">Sta</p>
+        <p id="Fst">Fst</p><p id="Gxy">Gxy</p>
+      </div>
+    </div>
+    <div class="flex_container" id="prev_next_link">
+      <div class="flex_container" id="prev_link">
+        <p style="text-align: right;">&lt;&lt;&lt;前へ</p>
+        <button id="scenario_prev"></button>
+      </div>
+      <div class="flex_container" id="next_link">
+        <p>次へ&gt;&gt;&gt;</p>
+        <button id="scenario_next"></button>
+      </div>
+        <button id="scenario_skipnext">Skip</button>
+    </div>
+  </div>
+  <footer>
+    <br>
+    <small>27代日電作成 / 27-28日電運用 / 最新のGoogle Chrome以外での動作は保証しません / 解像度1280px × 800px以上での運用を想定しています</small>
+  </footer>
+</body>
+</html>
+

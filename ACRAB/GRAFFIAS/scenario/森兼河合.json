@@ -1,0 +1,204 @@
+{
+    "info": {
+        "day": "三日目",
+        "title": "パパと息子の星空探検",
+        "name": "森兼河合"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "漢字の「人」みたいな星座がペルセウス座だよ！あれか",
+            "projector": {
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "エチオピア王国のヒーローなんだぞ",
+            "projector": {
+                "Per": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アンドロメダからたどれって習ったんだ",
+            "projector": {
+                "And": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "え、うそだー！",
+            "projector": {
+                "And": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "体の半分を描いた星座だな",
+            "projector": {
+                "Peg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "へえー、パパ、詳しいんだね！",
+            "projector": {
+                "Peg": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アルファベットの「W」の形だね",
+            "projector": {
+                "Cas": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "五角形の星座が、「ケフェウス座」",
+            "projector": {
+                "Cep": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "エチオピア王国の、カシオペヤ王妃と、ケフェウス王だな",
+            "projector": {
+                "Cas": 0,
+                "Cep": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "昔々エチオピア王国には、ケフェウスという王様がいました",
+            "projector": {
+                "Cep": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その妃のカシオペヤ王妃は大変な美貌の持ち主でした",
+            "projector": {
+                "Cas": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "このアンドロメダもとても美しいお姫様でした",
+            "projector": {
+                "And": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "海の怪物ティアマトをエチオピア王国に差し向けました",
+            "projector": {
+                "Cep": 0,
+                "Cas": 0,
+                "And": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "だって、ほら",
+            "projector": {
+                "Cet": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ティアマトに襲われたエチオピア王国はどうなったの？",
+            "projector": {
+                "Cet": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ペルセウス座を見てみな",
+            "projector": {
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おお、そういうことか。鋭いじゃないか。",
+            "projector": {
+                "Per": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ペルセウスが通りがかったところだよ",
+            "projector": {
+                "And": 1,
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "めでたしめでたしだね！ぱちぱちぱちー",
+            "projector": {
+                "And": 0,
+                "Per": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ケフェウス座　そこ",
+            "projector": {
+                "Cep": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "カシオペア座　そこ",
+            "projector": {
+                "Cas": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アンドロメダ座　そこ",
+            "projector": {
+                "And": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "くじら座　そこ",
+            "projector": {
+                "Cet": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ペルセウス座　そこ",
+            "projector": {
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ペガスス　そこ",
+            "projector": {
+                "Peg": 1
+            }
+        },
+        {
+            "timing": "pre",
+            "word": "もうすぐ夜明けだな",
+            "projector": {
+                "Eth": 0
+            }
+        }
+    ]
+}

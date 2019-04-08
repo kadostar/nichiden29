@@ -1,0 +1,112 @@
+﻿--88星座（あいうえお順）+略符一覧/新しく設定したい略符が既存星座絵のものと被っていないか等の確認にどうぞ--
+※2017年度に実装しているものは★をつけています。
+1:アンドロメダ And ★ N
+2:いっかくじゅう Mon 
+3:いて Sgr ★ S
+4:いるか Del
+5:インディアン Ind
+6:うお Psc ★ S
+7:うさぎ Lep ★ S
+8:うしかい Boo ★ N
+9:うみへび Hya
+10:エリダヌス Eri
+11:おうし Tau ★ S
+12:おおいぬ CMa ★ S
+13:おおかみ Lup
+14:おおぐま UMa ★ N
+15:おとめ Vir ★ S
+16:おひつじ Ari ★ N
+17:オリオン Ori ★ S
+18:がか Pic
+19:カシオペヤ Cas ★ N
+20:かじき Dor
+21:かに Cnc ★ N
+22:かみのけ Com
+23:カメレオン Cha
+24:からす Crv ★ S
+25:かんむり CrB
+26:きょしちょう Tuc
+27:ぎょしゃ Aur ★ N
+28:きりん Cam
+29:くじゃく Pav
+30:くじら Cet ★ S
+31:ケフェウス Cep ★ N
+32:ケンタウルス Cen
+33:けんびきょう Mic
+34:こいぬ CMi ★ S
+35:こうま Equ
+36:こぎつね Vul
+37:こぐま UMi ★ N
+38:こじし LMi
+39:コップ Crt
+40:こと Lyr ★ N
+41:コンパス Cir
+42:さいだん Ara
+43:さそり Sco ★ S
+44:さんかく Tri
+45:しし Leo ★ N
+46:じょうぎ Nor
+47:たて Sct
+48:ちょうこくぐ Cae
+49:ちょうこくしつ Scl
+50:つる Gru
+51:テーブルさん Men
+52:てんびん Lib ★ S
+53:とかげ Lac
+54:とけい Hor
+55:とびうお Vol
+56:とも Pup
+57:はえ Mus
+58:はくちょう Cyg ★ N
+59:はちぶんぎ Oct
+60:はと Col
+61:ふうちょう Aps
+62:ふたご Gem ★ N
+63:ペガスス Peg ★ N
+64:へび Ser
+65:へびつかい Oph
+66:ヘルクレス Her
+67:ペルセウス Per ★ N
+68:ほ Vel
+69:ぼうえんきょう Tel
+70:ほうおう Phe
+71:ポンプ Ant
+72:みずがめ Aqr ★ S
+73:みずへび Hyi
+74:みなみじゅうじ Cru
+75:みなみのうお PsA
+76:みなみのかんむり CrA
+77:みなみのさんかく TrA
+78:や Sge
+79:やぎ Cap ★ S
+80:やまねこ Lyn
+81:らしんばん Pyx
+82:りゅう Dra
+83:りゅうこつ Car
+84:りょうけん CVn
+85:レチクル Ret
+86:ろ For
+87:ろくぶんぎ Sex
+88:わし Aql ★ S
+--他、ポート命名(仮)--
+1:恒星(1) St(1) ★
+2:恒星(2) St(2) ★
+3:一等星 Fst ★
+4:銀河 Gxy ★
+--他、グループ命名(仮)
+1:春の大曲線 Spc => Boo, UMa, Vir, Crv ★
+2:春の大三角 Spt => Boo, Leo, Vir ★
+3:春のダイヤモンド Spd => Boo, Leo, Vir, CVn
+4:夏の大三角 Smt => Aql, Cyg, Lyr ★
+5:ペガススの大四辺形 Gsp => Peg, And ★
+6:冬の大三角 Wnt => CMa, CMi, Ori ★
+7:冬のダイヤモンド Wnd => CMa, CMi, Ori, Tau, Aur, Gem ★
+8:黄道十二星座 Twv => Aqr, Ari, Cap, Cnc, Gem, Leo, Psc, Sco, Sgr, Tau, Vir, Lib ★
+9:エチオピア Eth => And, Cas, Cep, Cet, Peg, Per ★
+10：恒星 Sta => St1, St2 ★
+11：全星座絵 All => And, Sgr, Psc, Lep, Boo, Tau, CMa, UMa, Vir, Ari, Ori, Cas, Cnc, Crv, Aur, Cet, Cep, CMi, UMi, Lyr, Sco, Leo, Lib, Cyg, Gem, Peg, Per, Aqr, Cap, Aql, Him, Hik ★
+12：全投影機点灯 Set *nameのみ、値なし
+13：全投影機消灯 Cle *nameのみ、値なし
+--他、年特有だと思われる割り当て(参考までに)
+1:織姫 Him ★ N
+2:彦星 Hik ★ S

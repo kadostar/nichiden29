@@ -1,0 +1,119 @@
+{
+    "info": {
+        "day": "一日目",
+        "title": "秋の夜空と王家の物語",
+        "name": "小倉長谷部"
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あっ、あの四角形かな",
+            "projector": {
+                "Peg": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ちゃんとした理由があったんだ！",
+            "projector": {
+                "Peg": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その通り。",
+            "projector": {
+                "Cas": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "正確にはちょっと難ありかも",
+            "projector": {
+                "Cas": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こういうことかな",
+            "projector": {
+                "Cep": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "この二人の間には絶世の美女といわれたアンドロメダ姫がいるよね",
+            "projector": {
+                "Cep": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ペガスス座の左上に広がる星座だよ",
+            "projector": {
+                "And": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "そうだね",
+            "projector": {
+                "And": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "アンドロメダ座の足元に漢字の「人」のかたちで星が並んでいるのがペルセウス座です。",
+            "projector": {
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "このお話の続きは後ほど！",
+            "projector": {
+                "Per": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "くじら座の尻尾に当たるよ～",
+            "projector": {
+                "Cet": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "これで星座の紹介は終わり！",
+            "projector": {
+                "Eth": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "えっと、ペガススは白馬…",
+            "projector": {
+                "And": 1,
+                "Cas": 1,
+                "Peg": 1,
+                "Cep": 1,
+                "Per": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その通り！～ルネサンス期まで基本とされていたんだね",
+            "projector": {
+                "Eth": 0
+            }
+        }
+    ]
+}

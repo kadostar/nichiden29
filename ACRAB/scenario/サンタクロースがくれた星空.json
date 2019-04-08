@@ -1,0 +1,206 @@
+{
+    "info": {
+        "day": "ソフト",
+        "title": "サンタクロースがくれた星空",
+        "name": ""
+    },
+    "scenario": [
+        {
+            "timing": "",
+            "word": "",
+            "projector": {
+                "Fst": 1,
+                "Gxy": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ひろきくん、大当たりです～！あれは、オリオン座ですよ。",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あの星は、ベテルギウスという名前なんじゃ。ベテルギウスも一等星じゃよ。",
+            "projector": {
+                "Ori": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "その通り！シリウスは夜空の中で一番明るい恒星なんじゃよ。…あれが、おおいぬ座のシリウスじゃ。",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "コメット13「そうですね。残る一つの星、プロキオンは…」の「そうですね」で",
+            "projector": {
+                "CMa": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "コメット13「（そうですね。）残る一つの星、プロキオンはシリウスの左上に輝く一等星です。…」",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ひろき20「シリウスの左上かあ…あれだね！」の後（セリフの途中で）",
+            "projector": {
+                "CMi": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "サンタ14「あの星は、おうし座の一等星アルデバランじゃよ。」",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あかり22「ねえねえコメット、あかりはふたご座なんだ！…」",
+            "projector": {
+                "Tau": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "サンタ15「さっき見つけた、オリオン座のリゲルとベテルギウスを覚えておるかな？…あれがふたご座じゃよ。」",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あかり26「そうだったんだ。二人でいつまでも一緒に居られて、…」",
+            "projector": {
+                "Gem": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "サンタ19「あの星はぎょしゃ座という星座の一等星、カペラじゃよ。」",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "コメット18「ぎょしゃは、馬車の前に座って馬を走らせる人のことをいうんですよ。…」",
+            "projector": {
+                "Aur": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "オリオン座のリゲル",
+            "projector": {
+                "Ori": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おおいぬ座のシリウス",
+            "projector": {
+                "CMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "こいぬ座のプロキオン",
+            "projector": {
+                "CMi": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ふたご座のポルックス",
+            "projector": {
+                "Gem": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ぎょしゃ座のカペラ",
+            "projector": {
+                "Aur": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "おうし座のアルデバラン",
+            "projector": {
+                "Tau": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "コメット20「冬の星空にある一等星を繋げると、…道を間違えそうになってしまいますが…」",
+            "projector": {
+                "Wnd": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "サンタ28「では、北斗七星を含めた、大きな熊の形が見えるかのう。」",
+            "projector": {
+                "UMa": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うう、痛そう…",
+            "projector": {
+                "UMa": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "サンタ31「それから、アルクトゥルスから、逆さまのネクタイのような形に星をつなぐと、うしかい座の星の並びになるんじゃ。…」",
+            "projector": {
+                "Boo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "あかり39「うしかい座かぁ…うん！覚えたよ！」",
+            "projector": {
+                "Boo": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "コメット31「おとめ座は翼の生えた女神という、なんともロマンチックな姿を現しているんですよ。…」",
+            "projector": {
+                "Vir": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "うんうん！",
+            "projector": {
+                "Vir": 0
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ひろき39「星の位置のまんまなんだね！」",
+            "projector": {
+                "Leo": 1
+            }
+        },
+        {
+            "timing": "post",
+            "word": "ひろき40「そうなんだ。ライオンを倒しちゃうなんて、ヘルクレスはものすごく強かったんだね。」",
+            "projector": {
+                "Leo": 0
+            }
+        }
+    ]
+}
